@@ -1,6 +1,12 @@
-:root {
+html {
   font-family: "Strait", sans-serif;
-  border-radius: 10px;
-  background: linear-gradient(180deg, rgba(13, 39, 1, 0) 0%, #1e420d 100%)
-    no-repeat;
+}
+
+body {
+  background: rgb(48, 2, 43);
+  background: linear-gradient(
+    0deg,
+    rgba(48, 2, 43, 0.9612219887955182) 56%,
+    rgba(85, 89, 89, 0.9836309523809523) 95%
+  );
 }
