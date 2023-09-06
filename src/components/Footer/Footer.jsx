@@ -1,4 +1,4 @@
-import "../components/footer.css";
+import './footer.css';
 
 function Footer() {
   const handleScrollToTop = () => {

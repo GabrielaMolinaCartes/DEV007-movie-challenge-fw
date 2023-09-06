@@ -1,4 +1,4 @@
-import "../components/navbar.css";
+import './navbar.css';
 
 function Navbar() {
   return (
@@ -18,7 +18,7 @@ function Navbar() {
         </li>
       </ul>
       <div className="search">
-        <input type="text" placeholder="Search" />
+        <input className="inputSearch" type="text" placeholder="Search" />
         <button>Search</button>
       </div>
     </header>

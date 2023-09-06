@@ -1,14 +1,11 @@
-import { useState } from "react";
 import "./App.css";
-import Navbar from "./components/Navbar";
-import Movies from "./components/Movies";
-import Footer from "./components/Footer";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Movies />
       <Footer />
     </div>
   );
