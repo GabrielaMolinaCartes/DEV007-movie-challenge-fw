@@ -21,10 +21,13 @@ function AllMovies() {
 
             {
                 movies.map( movie => (
-                    <p key={movie.id}>{movie.name}</p>
+                    <div key={movie.id}>
+                        <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt={movie.title}/>
+                        <p>{movie.title}</p>
+                    </div>    
                 ))
+            
             }
-
         </div>
     )
 }
