@@ -17,11 +17,11 @@ function AllMovies() {
     }, [])
 
     return (
-        <div>
+        <div className="container">
 
             {
                 movies.map( movie => (
-                    <div key={movie.id}>
+                    <div className="movie" key={movie.id}>
                         <img src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`} alt={movie.title}/>
                         <p>{movie.title}</p>
                     </div>    
